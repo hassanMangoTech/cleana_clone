@@ -1,12 +1,14 @@
-import { useState } from 'react'
+import { useEffect, useState } from 'react'
 import './App.css'
 import Home from './pages/Home/Home'
+import ScrollToTopButton from './components/ScrollToTopButton/ScrollToTopButton'
 function App() {
-  const [count, setCount] = useState(0)
+
 
   return (
     <>
       <Home/>
+      <ScrollToTopButton/>
     </>
   )
 }

@@ -1,9 +1,11 @@
-import React, { useState } from "react";
+import  { useState } from "react";
 import Details from "../../components/Details/Details";
 import Navbar from "../../components/navbar/Navbar";
 import './home.css'
 import Hero from "../../components/Hero/Hero";
 import Slider from "../../components/slider/Slider";
+import About from "../../components/About/About";
+import Contact from "../../components/Contact/Contact";
 
 const Home = () => {
 	const [menuIsOpen, setMenuIsOpen] = useState(false);
@@ -15,6 +17,8 @@ const Home = () => {
 			</div>
       <Hero/>
       <Slider/>
+			<About/>
+			<Contact/>
 		</>
 	);
 };

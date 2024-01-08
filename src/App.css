@@ -3,3 +3,17 @@
   margin: 0;
   font-family: 'DM Sans', sans-serif;
 }
+body{
+  background-color: #ECF4FE;
+  max-width: 100wv;
+  overflow-x: hidden;
+}
+
+ul,
+ol {
+  list-style: none;
+  padding: 0;
+  /* Optional: Remove default padding */
+  margin: 0;
+  /* Optional: Remove default margin */
+}
