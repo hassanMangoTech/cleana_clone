@@ -1,0 +1,32 @@
+.service-main{
+  margin-top: 15rem;
+}
+
+.service-heading{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.service-heading div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #29ABE2;
+  gap: 10px;
+  font-weight: 800;
+  font-size: 2rem;
+}
+
+.service-heading h2 {
+  color: #1F2A59;
+  font-weight: 700;
+  font-size: 2.5rem;
+  text-align: center;
+}
+
+.service-swiper{
+  padding: 2.5rem 2.8rem;
+}

@@ -6,6 +6,8 @@ import Hero from "../../components/Hero/Hero";
 import Slider from "../../components/slider/Slider";
 import About from "../../components/About/About";
 import Contact from "../../components/Contact/Contact";
+import Service from "../../components/Service/Service";
+import ContactUs from "../../components/ContactUs/ContactUs";
 
 const Home = () => {
 	const [menuIsOpen, setMenuIsOpen] = useState(false);
@@ -19,6 +21,8 @@ const Home = () => {
       <Slider/>
 			<About/>
 			<Contact/>
+			<Service/>
+			<ContactUs/>
 		</>
 	);
 };

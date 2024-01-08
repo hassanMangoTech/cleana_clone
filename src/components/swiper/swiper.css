@@ -1,0 +1,84 @@
+
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+
+  /* Center slide text vertically */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.swiper-content{
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+  padding-right: 1rem;
+}
+
+.swiper-content:hover .swiper-slide img{
+transform: scale(1.2);
+  /* Adjust the scale factor as needed */
+  transition: transform 0.3s ease;
+}
+
+.swiper-content h5{
+  color: #1F2A59;
+  font-size: 2rem;
+  font-weight: bolder;
+  margin-top: 20px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.swiper-content h5:hover{
+  color: #F7931E;
+}
+
+.swiper-content p {
+  color: #555555;
+}
+
+
+
+.swiper-content button{
+  cursor: pointer;
+  font-size: 1.3rem;
+  font-weight: 900;
+  border: none;
+  padding: 10px 30px;
+  color: #fff;
+  background-color: #F7931E;
+  border-radius: 4px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+      transition: all 0.3s ease;
+}
+
+.swiper-content .btn2{
+  background-color: #29ABE2;
+}
+.swiper-content .btn3{
+  background-color: #8CC63F;
+}
+
+.swiper-content button:hover{
+  background-color: #1F2A59;
+}
