@@ -91,9 +91,20 @@ const Projects = () => {
 					);
 				})}
 			</div>
-			<div className="projects-display">{filteredProjectPics.map((project,index) => {
-        return <div key={index}><img src={project.pic} alt="" /></div>;
-      })}</div>
+			<div className="projects-display">
+				{filteredProjectPics.map((project, index) => {
+					return (
+						<div key={index}>
+							<img src={project.pic} alt="" />
+							<div className="layer">
+								<h5>Super Secret Project</h5>
+								<span>Financial</span>
+							</div>
+              <div className="shape"></div>
+						</div>
+					);
+				})}
+			</div>
 		</div>
 	);
 };
