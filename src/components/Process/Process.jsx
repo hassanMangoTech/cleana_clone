@@ -1,4 +1,3 @@
-import React from "react";
 import "./process.scss";
 import starRight from "../../assets/Process/03.png";
 import starLeft from "../../assets/Process/04.png";

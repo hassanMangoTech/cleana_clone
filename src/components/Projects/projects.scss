@@ -26,10 +26,10 @@
 	}
 
 	.projects-display {
+    border: 2px solid green;
 		display: grid;
 		grid-template-columns: 1fr 1fr 1fr;
-		grid-template-rows: 1fr 1fr 1fr;
-		gap: 20px 14px;
-    padding: 2rem 5rem;
+		// gap: 20px 14px;
+    // padding: 2rem 5rem;
 	}
 }

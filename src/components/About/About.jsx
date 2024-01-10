@@ -1,4 +1,3 @@
-import React from 'react'
 import './about.css'
 import starLeft from '../../assets/About/01.png'
 import starRight from '../../assets/About/02.png'
