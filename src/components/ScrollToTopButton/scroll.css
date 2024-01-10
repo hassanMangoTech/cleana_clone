@@ -17,6 +17,43 @@
   align-items: center;
   justify-content: center;
   z-index: 2;
+  .scroll-to-top {
+  position: fixed;
+  bottom: 50px;
+  right: 60px;
+  background-color: #F7931E;
+  /*Buttonbackgroundcolor*/color: #fff;
+  /*Buttontextcolor*/border: none;
+  border-radius: 5px;
+  padding: 15px;
+  cursor: pointer;
+  font-size: 18px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 2;
+ 
+  transition: all 0.3s, opacity 0.3s;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  -webkit-transition: all 0.3s, opacity 0.3s;
+  -moz-transition: all 0.3s, opacity 0.3s;
+  -ms-transition: all 0.3s, opacity 0.3s;
+  -o-transition: all 0.3s, opacity 0.3s;
+
+
+
+.scroll-to-top:hover {
+  background-color: #F7931E;
+  transform: translateY(-10px);
+}
+
+/* Additional styling for the arrow symbol */
+.scroll-to-top span {
+  line-height: 1;
+}
   transition: all 0.3s, opacity 0.3s;
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
@@ -36,4 +73,4 @@
 /* Additional styling for the arrow symbol */
 .scroll-to-top span {
   line-height: 1;
-}
+}}

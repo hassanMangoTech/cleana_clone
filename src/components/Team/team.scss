@@ -1,0 +1,63 @@
+.team-main{
+  background-image: url('../../assets/Team/bg.png');
+  background-repeat: no-repeat;
+    background-size: cover;
+    padding: 8rem 5rem;
+
+
+  .team-heading {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 10px;
+  
+      div {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: #29ABE2;
+          font-family: "DM Sans", sans-serif;
+        gap: 10px;
+        font-weight: 800;
+        font-size: 2rem;
+      }
+  
+      h2 {
+        color: #1F2A59;
+        font-weight: 900;
+        font-size: 2.5rem;
+        text-align: center;
+      }
+  
+    }
+
+    .team-cards{
+      display: flex;
+      gap: 27px;
+      margin-top: 3rem;
+      margin-bottom: 4rem;
+    }
+    
+    .team-btn{
+      display: flex;
+      justify-content: center;
+      
+      button{
+        background-color: #1F2A59;
+        color: #fff;
+        transition: all .3s ease;
+        padding: 1.3rem 2rem;
+        font-size: 1.2rem;
+        font-weight: 800;
+        border-radius: 10px;
+        -webkit-border-radius: 10px;
+        -moz-border-radius: 10px;
+        -ms-border-radius: 10px;
+        -o-border-radius: 10px;
+
+        &:hover{
+          background-color: #F7931E;
+        }
+}
+    }
+}
