@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import  { useState } from "react";
 import "./projects.scss";
 import starLeft from "../../assets/About/01.png";
 import starRight from "../../assets/About/02.png";
@@ -8,6 +8,7 @@ import project3 from "../../assets/Projects/03.jpg";
 import project4 from "../../assets/Projects/04.jpg";
 import project5 from "../../assets/Projects/05.jpg";
 import project6 from "../../assets/Projects/06.jpg";
+import icon from "../../assets/Projects/icon.png";
 
 const Projects = () => {
 	const [selectedButton, setSelectedButton] = useState(0); // Default selected button is the first one
@@ -100,7 +101,10 @@ const Projects = () => {
 								<h5>Super Secret Project</h5>
 								<span>Financial</span>
 							</div>
-              <div className="shape"></div>
+							<div className="shape"></div>
+							<span className="icon">
+								<img src={icon} alt="icon" />
+							</span>
 						</div>
 					);
 				})}

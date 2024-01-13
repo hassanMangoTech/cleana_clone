@@ -11,6 +11,7 @@ import ContactUs from "../../components/ContactUs/ContactUs";
 import Process from "../../components/Process/Process";
 import Team from "../../components/Team/Team";
 import Projects from "../../components/Projects/Projects";
+import { Testimonial } from "../../components/Testimonial/Testimonial";
 
 const Home = () => {
 	const [menuIsOpen, setMenuIsOpen] = useState(false);
@@ -29,6 +30,7 @@ const Home = () => {
 			<Process />
 			<Team />
 			<Projects />
+			<Testimonial/>
 		</>
 	);
 };
